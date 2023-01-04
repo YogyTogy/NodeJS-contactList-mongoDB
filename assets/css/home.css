@@ -1,0 +1,32 @@
+
+
+
+
+
+.contact{
+    display: flex;
+    padding: 3px 10px;
+    border: 1px solid white;
+    background-color: #6f92f9;
+    box-shadow: 1px 1px 1px 1px lightgray;
+    color: white;
+}
+
+.contact .details{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.contact .delete-button{
+    width: 10%;
+    padding: 3px;
+ 
+}
+
+.contact .delete-button a{
+    color: white;
+}
+
